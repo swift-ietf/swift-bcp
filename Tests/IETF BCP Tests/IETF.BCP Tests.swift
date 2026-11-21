@@ -3,9 +3,9 @@ import Testing
 
 extension IETF.BCP {
     @Suite
-    struct Tests {
+    struct Namespace {
         @Test
-        func namespace() {
+        func exists() {
             #expect(IETF.BCP.self == IETF.BCP.self)
         }
     }
